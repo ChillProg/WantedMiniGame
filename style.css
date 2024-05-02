@@ -1,0 +1,107 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7f4;
+}
+
+.gameContainer{
+    border-radius: 5px;
+    border: solid 5px white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.topScreenContainer
+{
+    height: 300px;
+    width: 400px;
+    position: relative;
+}
+
+.bottomScreenContainer
+{
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.bgWantedImg
+{
+    width: 100%;
+    height: 100%;
+}
+
+#characterImg{
+    position: relative;
+    bottom: 215px;
+    left: 160px;
+    height: 95px;
+    width: 90px;
+}
+
+.minicharacterImg{
+    position: absolute;
+    cursor: pointer;
+}
+
+.timeIcon{
+    position: absolute;
+    top: 15px;
+    left: 175px;
+    width: 50px;
+}
+
+.number
+{
+    position: absolute;
+    top: 35px;
+    height: 45px;
+}
+
+.firstNumber{
+    left: 160px;
+}
+
+.secondNumber{
+    left: 210px;
+}
+
+.levelsImg{
+    position: absolute;
+    bottom: 10px;
+    right: 38px;
+    width: 40px;
+}
+
+.firstLevelNumber
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    height: 20px;
+    width: 15px;
+}
+
+.secondLevelNumber
+{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    height: 20px;
+    width: 15px;
+}
+
+.playAgain{
+    position: absolute;
+    top: 40%;
+    left: 25% ;
+    width: 50%;
+    z-index: 10px;
+    cursor: pointer;
+}
